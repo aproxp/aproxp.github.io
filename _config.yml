@@ -18,27 +18,24 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "apruski's blog"
-description:	       "desc"
+title:		           "apruski's (photo)blog"
+description:	       ""
 author:              "Aleksander Pruski"
 # gems: [jekyll-paginate-v2]
 
 gallery:
-  dir: albums               # Path to the gallery
+  dir: photos               # Path to the gallery
   symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
-  title: "Albums"           # Title for gallery index page
+  title: "Photo Albums"           # Title for gallery index page
   title_prefix: ""  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
   sort_field: "date_time"   # How to sort galleries on the index page.
                             # Possible values are: title, date_time, best_image
   thumbnail_size:
-    x: 400                  # max width of thumbnails (in pixels)
-    y: 400                  # max height of thumbnails (in pixels)
+    x: 200                  # max width of thumbnails (in pixels)
+    y: 200                  # max height of thumbnails (in pixels)
   galleries:
-    test1:
-      name: "blyat"
-    test2:
-      name: "cyka"
-      hidden: true
+    sunrise-bridge:
+      name: "Random sunrise trip"
   # The following options are for individual galleries.
   # galleries:
   #   chile_trip:
